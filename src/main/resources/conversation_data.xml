@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<conversations>
+    <!-- Greetings -->
+    <conversation>
+        <type>Greetings</type>
+        <patterns>
+            <pattern id="1">^(?:\s*hi|\s*hello|\s*hey|\s*greetings|\s*sup|\s*yo)(?!\w)</pattern>
+        </patterns>
+        <responses>
+            <response id="1">Hello there!</response>
+            <response id="1">Hey!</response>
+            <response id="1">Greetings!</response>
+            <response id="1">Hello!</response>
+            <response id="1">Hi!</response>
+            <response id="1">Yo!</response>
+        </responses>
+    </conversation>
+
+    <!-- Questions -->
+    <conversation>
+        <type>Questions</type>
+        <patterns>
+            <pattern id="1">
+                (?:(?:chatinator\s+)?how\s+are\s+you|(?:chatinator\s+)?what(?:\s+is|['’´]s)\s+up|
+                (?:chatinator\s+)?how(?:\s+is|['’´]s)\s+it\s+going|(?:chatinator\s+)?how\s+are\s+you\s+doing)\??$
+            </pattern>
+            <pattern id="2">
+                (?:(?:chatinator\s+)?what(?:\s+is|['’´]s)\s+your\s+favourite\s+cake|
+                (?:chatinator\s+)?what\s+cake\s+do\s+you\s+like|
+                (?:chatinator\s+)?do\s+you\s+have\s+a\s+favourite\s+cake)\??
+            </pattern>
+            <pattern id="3">(?:what(?:\s+is|['’´]s)\s+your\s+name|what\s+do\s+i\s+call\s+you)\??</pattern>
+            <pattern id="4">(?:do\s+you\s+know\s+any\s+jokes)\??</pattern>
+            <pattern id="5">
+                (?:(?:chatinator\s+)?can\s+you\s+tell\s+me\s+(?:a|another)\s+joke|
+                (?:chatinator\s+)?what(?:\s+is|['’´]s)\s+your\s+best\s+joke|(?:chatinator\s+)?tell\s+me\s+a\s+joke)\??
+            </pattern>
+            <pattern id="6">
+                (?:(?:chatinator\s+)?what(?:\s+is|['’´]s)\s+your\s+favourite\s+(?:type\s+of\s+)?music|
+                (?:chatinator\s+)?what(?:\s+type\s+of)?\s+music\s+do\s+you\s+like)\??
+            </pattern>
+            <pattern id="7">
+                (?:(?:chatinator\s+)?do\s+you\s+like\s+me|(?:chatinator\s+)?are\s+you\s+my\s+friend|
+                (?:chatinator\s+)?am\s+i\s+your\s+friend|(?:chatinator\s+)?are\s+you\s+happy)\??
+            </pattern>
+            <pattern id="8">
+                (?:(?:chatinator\s+)?can\s+you\s+(?:paint|draw)(?:\s+me)?\s+something(?:\s+else)?)
+            </pattern>
+            <pattern id="9">
+                (?:(?:chatinator\s+)?(?:what\s+is\s+your|do\s+you\s+have\s+a)(?:\s+favourite)?\s+hobby)
+            </pattern>
+            <pattern id="10">
+                (?:(?:what(?:\s+is|['’´]s)|do\s+you\s+know)
+                \s+the\s+definition\s+of(?:\s+the\s+word)?\s+([a-zA-Z'’´\s]+))
+            </pattern>
+        </patterns>
+        <responses>
+            <response id="1">Not bad, how about you?</response>
+            <response id="1">Things are good, thanks for asking!</response>
+            <response id="1">I'm doing fantastic! How are you doing?</response>
+            <response id="1">Doing just fine, how about you?</response>
+            <response id="2">Chocolate cake is my absolute favourite cake! What is your favourite?</response>
+            <response id="2">I enjoy carrot cake! What is your favourite</response>
+            <response id="2">Coffee cake is delicious! What is your favourite</response>
+            <response id="3">You can call me Chatinator. What is your name?</response>
+            <response id="4">Yes it's actually one of my specialities!</response>
+            <response id="5">A pair of cows were talking in the field. One says,
+                “Have you heard about the mad cow disease that’s going around?”
+                “Yeah,” the other cow says. “Makes me glad I’m a penguin.”
+            </response>
+            <response id="5">“Your mother has been with us for 20 years,” said John.
+                “Isn’t it time she got a place of her own?”
+                “My mother?” replied Helen. “I thought she was your mother.”
+            </response>
+            <response id="5">Why don’t pirates take a shower before they walk the plank?
+                They just wash up on shore.
+            </response>
+            <response id="5">A teenager brings her new boyfriend home to meet her parents.
+                They’re appalled by his haircut, his tattoos, his piercings.
+                Later, the girl’s mom says, “Dear, he doesn’t seem to be a very nice boy.”
+                “Oh, please, Mom!” says the daughter.
+                “If he wasn’t nice, would he be doing 500 hours of community service?”
+            </response>
+            <response id="5">Two hunters are out in the woods when one of them collapses.
+                He’s not breathing and his eyes are glazed. The other guy whips out his cell phone and calls 911.
+                “I think my friend is dead!” he yells. “What can I do?”
+                The operator says, “Calm down. First, let’s make sure he’s dead.”
+                There’s a silence, then a shot. Back on the phone, the guy says, “Okay, now what?”
+            </response>
+            <response id="5">A man went into a seafood restaurant and asked for a lobster tail.
+                The waitress smiled sweetly and said, “Once upon a time there was this handsome lobster…”
+            </response>
+            <response id="5">Did you hear they arrested the devil? Yeah, they got him on possession.</response>
+            <response id="5">Restaurant patron: “Waiter, I’d like a bottle of wine.”
+                Waiter: “What year, sir?”
+                Patron: “Well, I’d like it right now.”
+            </response>
+            <response id="5">What do you call an angry carrot?
+                A steamed veggie.
+            </response>
+            <response id="5">A ham sandwich walks into a bar and orders a beer,
+                bartender says “sorry, we don’t serve food here.”
+            </response>
+            <response id="5">What do you call an alligator detective?
+                An investi-gator.
+            </response>
+            <response id="6">
+                I like old school rock! Some Scorpions, Iron Maiden or McAuley Schenker Group never hits wrong!
+                What is yours?
+            </response>
+            <response id="7">Of course!</response>
+            <response id="7">Hell yes!</response>
+            <response id="8">Sure! Here's a truck:
+                ──────▄▌▐▀▀▀▀▀▀▀▀▀▀▀▀▌
+                ───▄▄██▌█░░░░░░░░░░░▐
+                ▄▄▄▌▐██▌█░░░░░░░░░░░▐
+                ███████▌█▄▄▄▄▄▄▄▄▄▄▄▄▌
+                ▀❍▀▀▀▀▀▀▀❍❍▀▀▀▀▀▀❍❍▀
+            </response>
+            <response id="8">Sure! Here's a tv:
+                ░▀▄░░▄▀
+                ▄▄▄██▄▄▄▄▄░▀█▀▐░▌
+                █▒░▒░▒░█▀█░░█░▐░▌
+                █░▒░▒░▒█▀█░░█░░█
+                █▄▄▄▄▄▄███══════</response>
+            <response id="8">Sure! Here's a computer:
+                ▐▓█▀▀▀▀▀▀▀▀▀█▓▌░▄▄▄▄▄░
+                ▐▓█░░▀░░▀▄░░█▓▌░█▄▄▄█░
+                ▐▓█░░▄░░▄▀░░█▓▌░█▄▄▄█░
+                ▐▓█▄▄▄▄▄▄▄▄▄█▓▌░█████░
+                ░░░░▄▄███▄▄░░░░█████░
+            </response>
+            <response id="8">Sure! Here's a motorcycle:
+                ───────────────▀▄
+                ──█▄▄▄▄▄███▀▄─▄▄
+                ▄▀──▀▄─▀▀█▀▀▄▀──▀▄
+                ▀▄▀▀█▀▀███─▀▄──▄▀
+                ───▀▀────────────────▀▀
+            </response>
+            <response id="8">Sure! Here's a skull:
+                ─────▄─────▄▄▄▄▄▄▄────▄───
+                ─▀▀▄─▄█████████▄─▄▀▀──
+                ─────────██─▀███▀─██──────
+                ─────▄─▀████▀████▀─▄────
+                ────▀█────███▄███────█▀──
+                ────────────██▀█▀██────────
+            </response>
+            <response id="8">Sure! Here's a cat:
+                ───▄▄─▄███▄▐▄▄▄▌
+                ──▐──████▀██▄█▄▌
+                ▐─▌──█▀▌──▐▀▌──▀█▀
+                ──▀──▌───▌──▐──▌
+                ──────█─█──▐▌█
+            </response>
+            <response id="8">Sure! Here's an alien:
+                ▒▒▄▀▀▀▀▀▄▒▒▒▒▄▄▄▄▄▒▒▒
+                ▒▐░▄░░░▄░▌▒▒▄█▄█▄█▄█▄▒
+                ▒▐░▀▀░▀▀░▌▒▒▒▒▒░░░▒▒▒▒
+                ▒▒▀▄░═░▄▀▒▒▒▒▒▒░░░▒▒▒▒
+                ▒▒▐░▀▄▀░▌▒▒▒▒▒▒░░░▒▒▒▒
+            </response>
+            <response id="8">Sure! Here's a camera:
+                ░░▄▄░▄███▄
+                ▄▀▀▀▀░▄▄▄░▀▀▀▀▄
+                █▒▒▒▒█░░░█▒▒▒▒█
+                █▒▒▒▒▀▄▄▄▀▒▒▒▒█
+                ▀▄▄▄▄▄▄▄▄▄▄▄▄▄▀
+            </response>
+            <response id="9">
+                My favourite hobby is drawing! You can ask me to draw you something if you want.
+                I'm also exceptional with word definitions. You can ask me "what's the definition of the word ..."
+                and I will try to provide definitions!
+                What is your favourite hobby?
+            </response>
+            <response id="10">get definition response</response>
+        </responses>
+    </conversation>
+
+    <!-- Statements -->
+    <conversation>
+        <type>Statements</type>
+        <patterns>
+            <pattern id="1">
+                (?:^great|it(?:\s+is|['’´]s)\s+great|it(?:\s+is|['’´]s)\s+good|^good|it(?:\s+is|['’´]s)
+                \s+fine|^fine|^awesome|it(?:\s+is|['’´]s)\s+awesome)
+            </pattern>
+            <pattern id="2">(?:^bad|it(?:\s+is|['’´]s)\s+bad|^really\s+bad|it(?:\s+is|['’´]s)\s+really\s+bad)</pattern>
+            <pattern id="3">^(?:my\s+favourite\s+cake\s+is\s+([a-zA-Z]+))</pattern>
+            <pattern id="4">
+                ^(?:my\s+favourite\s+music\s+is\s+([a-zA-Z0-9]+)|the\s+music\s+i\s+(?:enjoy|like)\s+is([a-zA-Z0-9]+))
+            </pattern>
+            <pattern id="5">^(?:Because|no\s+idea)</pattern>
+            <pattern id="6">
+                (?:you(?:\s+are|['’´]re)\s+(?:great|awesome|good|really\s+good)|^(?:beautiful|nice)(?:!*|\.*)$|that
+                (?:\s+is|['’´]s)\s+(?:beautiful|great|nice|good))
+            </pattern>
+            <pattern id="7">(?:i(?:\s+am|m)(?:\s+doing)?(?:\s+just)?\s+(?:great|fine|ok|awesome|good))</pattern>
+            <pattern id="8">(?:my\s+name\s+is\s+([a-zA-Z]+))</pattern>
+            <pattern id="9">^(?:my\s+(?:favourite\s+)?hobby\s+is\s+([a-zA-Z'’´\s]+))</pattern>
+            <pattern id="10">
+                ^(?:i\s+got\s+interested\s+(?:in|of)\s+(?:[a-zA-Z'’´\s]+)\s+(?:because|by)\s+([a-zA-Z'’´\s]+))
+            </pattern>
+        </patterns>
+        <responses>
+            <response id="1">That's good [name]!</response>
+            <response id="1">That's great [name]!</response>
+            <response id="2">Why is it bad [name]?</response>
+            <response id="3">[cake] that sounds yummy!</response>
+            <response id="4">[music] really? That's awesome!</response>
+            <response id="5">I see!</response>
+            <response id="6">Thank you! =)</response>
+            <response id="7">That's awesome [name]!</response>
+            <response id="7">That's good [name]!</response>
+            <response id="8">How are you doing [name]?</response>
+            <response id="9">
+                That's interesting [name], [hobby] sounds like a lot of fun. What got you interested in it?
+            </response>
+            <response id="10">
+                That's fascinating, "[reason]" seems like a good reason to spark the interest for [hobby].
+            </response>
+        </responses>
+    </conversation>
+</conversations>
